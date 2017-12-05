@@ -149,6 +149,8 @@ public class MainFrame {
 				double calculation = cb.subtraction(Double.parseDouble(textField.getText()), Double.parseDouble(textField_1.getText()));
 				String result = String.valueOf(calculation);
 				lblResult.setText("Result: "+result);
+				textField.setText("");
+				textField_1.setText("");
 				}catch(NumberFormatException except) {
 					except.getMessage();
 				}
@@ -161,6 +163,8 @@ public class MainFrame {
 				double calculation = cb.multiplication(Double.parseDouble(textField.getText()), Double.parseDouble(textField_1.getText()));
 				String result = String.valueOf(calculation);
 				lblResult.setText("Result: "+result);
+				textField.setText("");
+				textField_1.setText("");
 				}catch(NumberFormatException except) {
 					except.getMessage();
 				}
@@ -176,6 +180,8 @@ public class MainFrame {
 				}else {
 				String result = String.valueOf(calculation);
 				lblResult.setText("Result: "+result);
+				textField.setText("");
+				textField_1.setText("");
 				}
 				}catch(NumberFormatException except) {
 					except.getMessage();
@@ -189,6 +195,8 @@ public class MainFrame {
 				double calculation = ca.percentage(Double.parseDouble(textField.getText()), Double.parseDouble(textField_1.getText()));
 				String result = String.valueOf(calculation);
 				lblResult.setText("Result: "+textField_1.getText()+"% of "+textField.getText()+", is: "+result);
+				textField.setText("");
+				textField_1.setText("");
 				}catch(NumberFormatException except) {
 					except.getMessage();
 				}
@@ -201,6 +209,8 @@ public class MainFrame {
 				double calculation = ca.square(Double.parseDouble(textField.getText()));
 				String result = String.valueOf(calculation);
 				lblResult.setText("Result: "+result);
+				textField.setText("");
+				textField_1.setText("");
 				}catch(NumberFormatException except) {
 					except.getMessage();
 				}
@@ -213,6 +223,8 @@ public class MainFrame {
 				double calculation = ca.cube(Double.parseDouble(textField.getText()));
 				String result = String.valueOf(calculation);
 				lblResult.setText("Result: "+result);
+				textField.setText("");
+				textField_1.setText("");
 				}catch(NumberFormatException except) {
 					except.getMessage();
 				}
@@ -225,6 +237,8 @@ public class MainFrame {
 				double calculation = ca.squareRt(Double.parseDouble(textField.getText()));
 				String result = String.valueOf(calculation);
 				lblResult.setText("Result: "+result);
+				textField.setText("");
+				textField_1.setText("");
 				}catch(NumberFormatException except) {
 					except.getMessage();
 				}
@@ -237,6 +251,8 @@ public class MainFrame {
 				double calculation = ca.sin(Double.parseDouble(textField.getText()));
 				String result = String.valueOf(calculation);
 				lblResult.setText("Result: "+result);
+				textField.setText("");
+				textField_1.setText("");
 				}catch(NumberFormatException except) {
 					except.getMessage();
 				}
@@ -249,6 +265,8 @@ public class MainFrame {
 				double calculation = ca.cos(Double.parseDouble(textField.getText()));
 				String result = String.valueOf(calculation);
 				lblResult.setText("Result: "+result);
+				textField.setText("");
+				textField_1.setText("");
 				}catch(NumberFormatException except) {
 					except.getMessage();
 				}
