@@ -1,5 +1,15 @@
 package com.finalproj.maven.interfaces;
 
+/***
+ * Final project CalculatorAdvancedInterface
+ * 
+ * @author erik
+ * @version 1.0
+ * 
+ * This is the interface for the class CalculatorAdvanced.
+ *
+ */
+
 public interface CalculatorAdvancedInterface {
 	public double percentage(double numberToCalculate,double amountInPercentage);
 	public double square(double numberToCalculate);
