@@ -1,0 +1,15 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+calculator-erike,com.finalproj.maven.main,MainFrame,451,0,0,0,79,0,4,0,4,0
+calculator-erike,com.finalproj.maven.main,MainFrame.new ActionListener() {...},47,0,0,0,10,0,2,0,2,0
+calculator-erike,com.finalproj.maven.main,MainFrame.new ActionListener() {...},47,0,0,0,10,0,2,0,2,0
+calculator-erike,com.finalproj.maven.main,Main,8,0,0,0,3,0,2,0,2,0
+calculator-erike,com.finalproj.maven.main,MainFrame.new ActionListener() {...},47,0,0,0,10,0,2,0,2,0
+calculator-erike,com.finalproj.maven.main,MainFrame.new ActionListener() {...},47,0,0,0,10,0,2,0,2,0
+calculator-erike,com.finalproj.maven.main,MainFrame.new ActionListener() {...},47,0,0,0,10,0,2,0,2,0
+calculator-erike,com.finalproj.maven.main,MainFrame.new ActionListener() {...},66,0,0,0,10,0,2,0,2,0
+calculator-erike,com.finalproj.maven.main,MainFrame.new ActionListener() {...},62,0,2,0,12,0,3,0,2,0
+calculator-erike,com.finalproj.maven.main,MainFrame.new ActionListener() {...},52,0,0,0,10,0,2,0,2,0
+calculator-erike,com.finalproj.maven.main,MainFrame.new ActionListener() {...},52,0,0,0,10,0,2,0,2,0
+calculator-erike,com.finalproj.maven.main,MainFrame.new ActionListener() {...},52,0,0,0,10,0,2,0,2,0
+calculator-erike,com.finalproj.maven.classes,CalculatorAdvanced,0,34,0,0,0,9,0,7,0,7
+calculator-erike,com.finalproj.maven.classes,CalculatorBasic,0,29,0,2,0,9,0,6,0,5

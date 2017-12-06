@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 06 11:15:34 CET 2017</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2336 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorBasicTest.testAdditionNegativeNumbers()'><b>testAdditionNegativeNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorBasicTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionNegativeNumbers(com.finalproj.maven.test.CalculatorBasicTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorBasicTest.testAdditionPositiveNumbers()'><b>testAdditionPositiveNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorBasicTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionPositiveNumbers(com.finalproj.maven.test.CalculatorBasicTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorBasicTest.testAdditionZeros()'><b>testAdditionZeros</b><br>Test class: com.finalproj.maven.test.CalculatorBasicTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionZeros(com.finalproj.maven.test.CalculatorBasicTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testCosNegativeNumbers()'><b>testCosNegativeNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testCosNegativeNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testCosPositiveNumbers()'><b>testCosPositiveNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testCosPositiveNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testCosZeros()'><b>testCosZeros</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testCosZeros(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testCubeNegativeNumbers()'><b>testCubeNegativeNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testCubeNegativeNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testCubePositiveNumbers()'><b>testCubePositiveNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testCubePositiveNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testCubeZeros()'><b>testCubeZeros</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testCubeZeros(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorBasicTest.testDivisionNegativeNumbers()'><b>testDivisionNegativeNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorBasicTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionNegativeNumbers(com.finalproj.maven.test.CalculatorBasicTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorBasicTest.testDivisionPositiveNumbers()'><b>testDivisionPositiveNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorBasicTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionPositiveNumbers(com.finalproj.maven.test.CalculatorBasicTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorBasicTest.testDivisionZeros()'><b>testDivisionZeros</b><br>Test class: com.finalproj.maven.test.CalculatorBasicTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionZeros(com.finalproj.maven.test.CalculatorBasicTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorBasicTest.testMultiplicationNegativeNumbers()'><b>testMultiplicationNegativeNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorBasicTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationNegativeNumbers(com.finalproj.maven.test.CalculatorBasicTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorBasicTest.testMultiplicationPositiveNumbers()'><b>testMultiplicationPositiveNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorBasicTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationPositiveNumbers(com.finalproj.maven.test.CalculatorBasicTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorBasicTest.testMultiplicationZeros()'><b>testMultiplicationZeros</b><br>Test class: com.finalproj.maven.test.CalculatorBasicTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationZeros(com.finalproj.maven.test.CalculatorBasicTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testPercentageNegativeNumbers()'><b>testPercentageNegativeNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testPercentageNegativeNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testPercentagePositiveNumbers()'><b>testPercentagePositiveNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testPercentagePositiveNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testPercentageZeros()'><b>testPercentageZeros</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testPercentageZeros(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testSinNegativeNumbers()'><b>testSinNegativeNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testSinNegativeNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testSinPositiveNumbers()'><b>testSinPositiveNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testSinPositiveNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testSinZeros()'><b>testSinZeros</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testSinZeros(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testSquareNegativeNumbers()'><b>testSquareNegativeNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareNegativeNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testSquarePositiveNumbers()'><b>testSquarePositiveNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testSquarePositiveNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testSquareRtNegativeNumbers()'><b>testSquareRtNegativeNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareRtNegativeNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testSquareRtPositiveNumbers()'><b>testSquareRtPositiveNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareRtPositiveNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testSquareRtZeros()'><b>testSquareRtZeros</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareRtZeros(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorAdvancedTest.testSquareZeros()'><b>testSquareZeros</b><br>Test class: com.finalproj.maven.test.CalculatorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareZeros(com.finalproj.maven.test.CalculatorAdvancedTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorBasicTest.testSubtractionNegativeNumbers()'><b>testSubtractionNegativeNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorBasicTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionNegativeNumbers(com.finalproj.maven.test.CalculatorBasicTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorBasicTest.testSubtractionPositiveNumbers()'><b>testSubtractionPositiveNumbers</b><br>Test class: com.finalproj.maven.test.CalculatorBasicTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionPositiveNumbers(com.finalproj.maven.test.CalculatorBasicTest)</td></tr>
+<tr>
+<td title='com.finalproj.maven.test.CalculatorBasicTest.testSubtractionZeros()'><b>testSubtractionZeros</b><br>Test class: com.finalproj.maven.test.CalculatorBasicTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionZeros(com.finalproj.maven.test.CalculatorBasicTest)</td></tr>
+</table><p>
+</body>
+</html>

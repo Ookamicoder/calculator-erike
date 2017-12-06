@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="30" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="2336" started-at="2017-12-06T10:15:34Z" finished-at="2017-12-06T10:15:36Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="2336" started-at="2017-12-06T10:15:34Z" finished-at="2017-12-06T10:15:36Z">
+      <class name="com.finalproj.maven.test.CalculatorAdvancedTest">
+        <test-method status="PASS" signature="testSquarePositiveNumbers()[pri:0, instance:testSquarePositiveNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testSquarePositiveNumbers" duration-ms="43" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquarePositiveNumbers -->
+        <test-method status="PASS" signature="testSquareNegativeNumbers()[pri:0, instance:testSquareNegativeNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testSquareNegativeNumbers" duration-ms="37" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareNegativeNumbers -->
+        <test-method status="PASS" signature="testSquareRtPositiveNumbers()[pri:0, instance:testSquareRtPositiveNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testSquareRtPositiveNumbers" duration-ms="53" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRtPositiveNumbers -->
+        <test-method status="PASS" signature="testSquareRtNegativeNumbers()[pri:0, instance:testSquareRtNegativeNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testSquareRtNegativeNumbers" duration-ms="34" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRtNegativeNumbers -->
+        <test-method status="PASS" signature="testPercentageZeros()[pri:0, instance:testPercentageZeros(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testPercentageZeros" duration-ms="94" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPercentageZeros -->
+        <test-method status="PASS" signature="testCubeZeros()[pri:0, instance:testCubeZeros(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testCubeZeros" duration-ms="1" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCubeZeros -->
+        <test-method status="PASS" signature="testSquareZeros()[pri:0, instance:testSquareZeros(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testSquareZeros" duration-ms="3" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareZeros -->
+        <test-method status="PASS" signature="testPercentagePositiveNumbers()[pri:0, instance:testPercentagePositiveNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testPercentagePositiveNumbers" duration-ms="70" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPercentagePositiveNumbers -->
+        <test-method status="PASS" signature="testPercentageNegativeNumbers()[pri:0, instance:testPercentageNegativeNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testPercentageNegativeNumbers" duration-ms="41" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPercentageNegativeNumbers -->
+        <test-method status="PASS" signature="testCosZeros()[pri:0, instance:testCosZeros(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testCosZeros" duration-ms="0" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCosZeros -->
+        <test-method status="PASS" signature="testCubePositiveNumbers()[pri:0, instance:testCubePositiveNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testCubePositiveNumbers" duration-ms="34" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCubePositiveNumbers -->
+        <test-method status="PASS" signature="testCubeNegativeNumbers()[pri:0, instance:testCubeNegativeNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testCubeNegativeNumbers" duration-ms="37" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCubeNegativeNumbers -->
+        <test-method status="PASS" signature="testSinPositiveNumbers()[pri:0, instance:testSinPositiveNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testSinPositiveNumbers" duration-ms="22" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinPositiveNumbers -->
+        <test-method status="PASS" signature="testCosPositiveNumbers()[pri:0, instance:testCosPositiveNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testCosPositiveNumbers" duration-ms="33" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCosPositiveNumbers -->
+        <test-method status="PASS" signature="testSinNegativeNumbers()[pri:0, instance:testSinNegativeNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testSinNegativeNumbers" duration-ms="19" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinNegativeNumbers -->
+        <test-method status="PASS" signature="testCosNegativeNumbers()[pri:0, instance:testCosNegativeNumbers(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testCosNegativeNumbers" duration-ms="34" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCosNegativeNumbers -->
+        <test-method status="PASS" signature="testSinZeros()[pri:0, instance:testSinZeros(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testSinZeros" duration-ms="1" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinZeros -->
+        <test-method status="PASS" signature="testSquareRtZeros()[pri:0, instance:testSquareRtZeros(com.finalproj.maven.test.CalculatorAdvancedTest)]" name="testSquareRtZeros" duration-ms="13" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRtZeros -->
+      </class> <!-- com.finalproj.maven.test.CalculatorAdvancedTest -->
+      <class name="com.finalproj.maven.test.CalculatorBasicTest">
+        <test-method status="PASS" signature="testAdditionPositiveNumbers()[pri:0, instance:testAdditionPositiveNumbers(com.finalproj.maven.test.CalculatorBasicTest)]" name="testAdditionPositiveNumbers" duration-ms="253" started-at="2017-12-06T11:15:34Z" finished-at="2017-12-06T11:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionPositiveNumbers -->
+        <test-method status="PASS" signature="testMultiplicationNegativeNumbers()[pri:0, instance:testMultiplicationNegativeNumbers(com.finalproj.maven.test.CalculatorBasicTest)]" name="testMultiplicationNegativeNumbers" duration-ms="146" started-at="2017-12-06T11:15:34Z" finished-at="2017-12-06T11:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationNegativeNumbers -->
+        <test-method status="PASS" signature="testAdditionNegativeNumbers()[pri:0, instance:testAdditionNegativeNumbers(com.finalproj.maven.test.CalculatorBasicTest)]" name="testAdditionNegativeNumbers" duration-ms="92" started-at="2017-12-06T11:15:34Z" finished-at="2017-12-06T11:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionNegativeNumbers -->
+        <test-method status="PASS" signature="testAdditionZeros()[pri:0, instance:testAdditionZeros(com.finalproj.maven.test.CalculatorBasicTest)]" name="testAdditionZeros" duration-ms="150" started-at="2017-12-06T11:15:35Z" finished-at="2017-12-06T11:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionZeros -->
+        <test-method status="PASS" signature="testSubtractionPositiveNumbers()[pri:0, instance:testSubtractionPositiveNumbers(com.finalproj.maven.test.CalculatorBasicTest)]" name="testSubtractionPositiveNumbers" duration-ms="70" started-at="2017-12-06T11:15:35Z" finished-at="2017-12-06T11:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionPositiveNumbers -->
+        <test-method status="PASS" signature="testDivisionPositiveNumbers()[pri:0, instance:testDivisionPositiveNumbers(com.finalproj.maven.test.CalculatorBasicTest)]" name="testDivisionPositiveNumbers" duration-ms="82" started-at="2017-12-06T11:15:35Z" finished-at="2017-12-06T11:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionPositiveNumbers -->
+        <test-method status="PASS" signature="testSubtractionNegativeNumbers()[pri:0, instance:testSubtractionNegativeNumbers(com.finalproj.maven.test.CalculatorBasicTest)]" name="testSubtractionNegativeNumbers" duration-ms="75" started-at="2017-12-06T11:15:35Z" finished-at="2017-12-06T11:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionNegativeNumbers -->
+        <test-method status="PASS" signature="testDivisionNegativeNumbers()[pri:0, instance:testDivisionNegativeNumbers(com.finalproj.maven.test.CalculatorBasicTest)]" name="testDivisionNegativeNumbers" duration-ms="88" started-at="2017-12-06T11:15:35Z" finished-at="2017-12-06T11:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionNegativeNumbers -->
+        <test-method status="PASS" signature="testMultiplicationZeros()[pri:0, instance:testMultiplicationZeros(com.finalproj.maven.test.CalculatorBasicTest)]" name="testMultiplicationZeros" duration-ms="295" started-at="2017-12-06T11:15:35Z" finished-at="2017-12-06T11:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationZeros -->
+        <test-method status="PASS" signature="testMultiplicationPositiveNumbers()[pri:0, instance:testMultiplicationPositiveNumbers(com.finalproj.maven.test.CalculatorBasicTest)]" name="testMultiplicationPositiveNumbers" duration-ms="19" started-at="2017-12-06T11:15:35Z" finished-at="2017-12-06T11:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationPositiveNumbers -->
+        <test-method status="PASS" signature="testSubtractionZeros()[pri:0, instance:testSubtractionZeros(com.finalproj.maven.test.CalculatorBasicTest)]" name="testSubtractionZeros" duration-ms="232" started-at="2017-12-06T11:15:35Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionZeros -->
+        <test-method status="PASS" signature="testDivisionZeros()[pri:0, instance:testDivisionZeros(com.finalproj.maven.test.CalculatorBasicTest)]" name="testDivisionZeros" duration-ms="55" started-at="2017-12-06T11:15:36Z" finished-at="2017-12-06T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionZeros -->
+      </class> <!-- com.finalproj.maven.test.CalculatorBasicTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
